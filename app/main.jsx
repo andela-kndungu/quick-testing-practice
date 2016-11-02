@@ -1,9 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-
-const Hello = () => (
-  <h1>Hello Planets!</h1>
-);
+import Hello from './Hello.jsx';
 
 render(<Hello />, document.getElementById('app'));
 
